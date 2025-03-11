@@ -12,8 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5da0fd953039dd548bfbbeefa931c5b5, type: 3}
   m_Name: PistolCharacteristics
   m_EditorClassIdentifier: 
-  AimLenght: 500
-  BulletSpeed: 10
-  BulletDamage: 1
-  BulletLifeTime: 10
-  BulletPrefab: {fileID: 6674549463641071033, guid: 1c6a438e119ac784b8d993b29e3d8c01, type: 3}
+  damage: 1

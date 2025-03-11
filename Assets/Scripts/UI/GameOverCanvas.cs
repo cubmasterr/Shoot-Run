@@ -1,16 +1,14 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameOverCanvas : MonoBehaviour
 {
-    public void RandomLevelButton()
+    public void RestartButton()
     {
-        GameStateManager.Instance.RandomLevel();
-        gameObject.SetActive(false);
+        GameStateManager.Instance.RestartGame();
     }
-
-    public void RestarButton()
-    { 
-       GameStateManager.Instance.RestartMatch();
-       gameObject.SetActive(false);
+    public void ExitButton()
+    {
+        GameStateManager.Instance.ExitGame();
     }
 }
